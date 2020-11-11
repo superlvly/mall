@@ -70,5 +70,4 @@ public class UmsResourceServiceImpl implements UmsResourceService {
     public List<UmsResource> listAll() {
         return resourceMapper.selectByExample(new UmsResourceExample());
     }
-
 }
